@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pure CSS Responsive Image Slider</title>
+<link rel="stylesheet" type="text/css" href="f.css">
+<link rel="stylesheet" type="text/css" href="css.css">
+<script type ="text/javascript">
+function fn()
+{ 
+var inputVal=document.getElementById("email").value;
+var inputVal1=document.getElementById("feedback").value;
+
+alert(inputVal+" \n   "+inputVal1+"\n your response submit successfully" );
+
+}
+function fn1()
+{ 
+var inputVal=document.getElementById("email1").value;
+var inputVal1=document.getElementById("feedback1").value;
+
+alert(inputVal+" \n   "+inputVal1+"\n your response submit successfully" );
+
+}
+function fn2()
+{ 
+var inputVal=document.getElementById("name").value;
+var inputVal1=document.getElementById("email2").value;
+var inputVal2=document.getElementById("feedback2").value;
+
+alert(inputVal+" \n   "+inputVal1+"\n"+ inputVal2+"\n your response submit successfully" );
+
+}
+ function fn3() { 
+     var inputVal=document.getElementById("feedback").value;
+alert(inputVal+"\n your response submit successfully" );
+}
+</script>
+</head>
+<body>
+<br>
+
+	<div id="slider">
+		<figure>
+			<img src="img/desk.png">
+			<img src="img/desk2.png">
+			<img src="img/desk.png">
+			<img src="img/desk3.png">
+			<img src="img/desk4.png">
+                        <img src="img/desk5.png">
+                        
+
+		</figure>
+	</div>
+
+
+<h1><marquee width="50%">Create unlimited forms for all your needs</marquee></h1>
+<form action="tented">
+  <div class="container", text-align:centre>
+    <h1>Enter to win</h1>
+  
+<br><br><br>
+   <input type="text" placeholder="*Enter Email" name="email" id="email" required>
+<br>
+    <input type="text" placeholder="--how did you hear about this contest--" name="feed" id="feedback" required>
+<br>
+
+  <input type="checkbox" >
+<label class="c">yes,please opt me into the mailling last!</label>
+  <span class="checkmark"></span>
+<br>
+<br>
+<br>
+    
+
+<button onclick="fn()" class="registerbtn">Entter now</button>
+    <center>free website tools</center>
+  </div>
+
+<div class="container">
+    <h1>We Want to hear from you!</h1>
+    <label class ="conainer">Email address
+    <input type="text"  name="email" id="email1" required>
+    <label class ="conainer">Do you have any feedback for us?
+    <input type="text"  name="feed" id="feedback1" required>
+<br><br><br><br>
+    <button onclick="fn1()" class="registerbtn">submit</button>
+<br>
+     <center>free website tools</center>
+  </div>
+   <div class="container">
+    <h1>Contact us </h1>
+    <c><center>We Want to hear from you!</center></c>
+
+
+    <label class ="conainer">full name 
+    <input type="text"  name="full name" id="name" required>
+    <label class ="conainer">Email address
+    <input type="text"  name="email" id="email2" required>
+    <label class ="conainer">Do you have any feedback for us?
+    <input type="text"  name="feed" id="feedback2" required>
+   <button onclick="fn2()" class="registerbtn">submit</button>
+    <center>free website tools</center>
+  </div>
+<div class="container">
+    <h1>Quick Poll</h1>
+<br>
+    <input type="radio" id="m0" name="gend" value="option 1">
+    <label class="d">option 1</label><br>
+     <input type="radio" id="m1" name="gend" value="option 2">
+    <label class="d">option 2</label><br>
+     <input type="radio" id="m2" name="gend" value="option 3">
+    <label class="d">option 3</label><br><br>
+    <label class ="conainer">Do you have any feedback for us?
+    <input type="text"  name="feed" id="feedback" required><br><br><br><br><br>
+  <button onclick="fn3()" class="registerbtn">submit</button>
+    
+     <center>free website tools</center>
+  </div>
+</form>
+	
+
+
+
+
+
+</body>
+</html>
